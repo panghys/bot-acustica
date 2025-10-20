@@ -1,0 +1,35 @@
+body{
+    background-color: #282b30;
+}
+
+p{
+    background-color: #424549;
+    
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.barraprincipal {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 80px;
+}
+
+.titulo {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo{
+    height: 3%;
+    width:3%;
+}

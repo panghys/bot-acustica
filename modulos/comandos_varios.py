@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 import subir_audios
 from discord import Member
-
+import pyttsx3
 
 #$
 
@@ -60,6 +60,15 @@ async def echar(ctx,*,usuario: Member):
     await usuario.kick(reason="test")
 
 
-
+@bot.event
+async def on_message(message):
+    if message.author == bot.user:
+        return
+    if message.author.id == 497343885639417868:
+        ctx = await bot.get_context(message)
+        comando = bot.get_command("h")
+        if comando:
+            await ctx.invoke(comando, texto=message.content)
+    await bot.process_commands(message)
 
 bot.run(token, log_handler=handler,log_level=logging.DEBUG)

@@ -15,3 +15,16 @@ async def subirAudio(mensaje,archivo):
                 return None
 
 
+"""
+        <h1> testestes</h1>
+        <p2> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus adipisci accusamus doloremque neque, fugit a reiciendis. Placeat dolorum rem maxime. Porro provident quam atque commodi cum molestiae minima quaerat quod?</p2>"""
+"""
+
+h1{
+
+    background-color: #7289da;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}"""
